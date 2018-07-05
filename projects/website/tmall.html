@@ -1,0 +1,178 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>模仿天猫商城</title>
+    <meta name="description" content="模仿天猫商城">
+    <meta name="keywords" content="模仿天猫商城">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="../../img/icon.png"/>
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/style-responsive.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/layui.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class="preloader" id="preloader">
+    <div class="item">
+        <div class="spinner">
+        </div>
+    </div>
+</div>
+
+<div class="opacity-nav">
+
+    <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+    </div>
+
+    <ul class="menu-fullscreen">
+        <li><a class="ajax-link" href="index.html">首页</a></li>
+        <!--<li><a class="ajax-link" href="projects.html">Projects</a></li>-->
+        <li><a class="ajax-link" href="about-me.html">关于我</a></li>
+        <li><a class="ajax-link" href="contact.html">联系我</a></li>
+        <li><a class="ajax-link" href="http://ghang.top/">个人博客网站</a></li>
+    </ul>
+
+</div>
+
+
+<!--Header-->
+<header id="fullscreen">
+
+    <div class="logo" id="full"><a class="ajax-link" href="../../index.html">高行行小站</a></div>
+
+    <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+    </div>
+
+</header>
+
+<div class="clear"></div>
+
+<!--Content-->
+
+<div class="content" id="ajax-content">
+
+
+    <div class="text-intro">
+
+        <h1>模仿天猫商城项目</h1>
+
+
+        <div class="one-column">
+            <p>Website</p>
+        </div>
+
+        <div class="two-column">
+            <p>
+                项目内容<br/><br/>
+                项目来着自how2j.com<br/>
+                1.项目概述：使用SSM框架技术实现模仿天猫整站，包括后台和前端完整功能<br/>
+                2.人员分工：五个人，两个前端，三个后台<br/>
+                3.我的责任：负责后台的分类管理、分类属性管理、产品管理、用户管理<br/>
+            </p>
+            <p>
+                项目业绩<br/><br/>
+                1.我的贡献：对支撑整站需要用到的数据，进行管理维护。 比如分类管理，分类属性管理， 产品管理，用户管理。<br/>
+                2.我的收获：通过这个练手项目，更加熟练掌握了SSM框架的整合和项目开发流程<br/>
+            </p>
+        </div>
+
+
+
+        <div class="clear"></div>
+
+        <br/><br/>
+
+        <a href="http://140.143.53.118:8080/tmall_ssm/forehome" target="_blank">
+            <button class="layui-btn layui-btn-lg layui-btn-normal" style="background-color: #000000">效果浏览</button>
+        </a>
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+        <h2>首页</h2>
+        <img src="../../img/projects/tmall/0.jpg" width="100%"><br/><br/><br/><br/>
+        <h2>登录页</h2>
+        <img src="../../img/projects/tmall/1.jpg" width="100%"><br/><br/><br/><br/>
+
+
+
+        <div class="prev-next">
+
+            <div class="prev-button"><a class="ajax-link" href="../projects/personBlog.html">上一个</a></div>
+            <div class="next-button"><a class="ajax-link" href="#">下一个</a></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
+<!--Footer-->
+
+<footer>
+
+    <div class="footer-margin">
+        <div class="social-footer">
+            <a href="https://github.com/gaohanghang"><i class="fa fa-github"></i> GitHub</a>
+            <a href="https://https://www.zhihu.com/people/gao-xing-68-15/activities"><i class="fa fa-comment-o"></i> 知乎</a>
+
+        </div>
+        <div class="copyright">© Copyright Thomsoon.com. 版权所有.</div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!--Scripts-->
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/jquery.easing.min.js"></script>
+<script src="../../js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="../../js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../../js/typed.js" type="text/javascript"></script>
+<script src="../../js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="../../js/script.js" type="text/javascript"></script>
+<script src="../../js/layui.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="dist/canvas-nest.js"></script>
+</body>
+</html>

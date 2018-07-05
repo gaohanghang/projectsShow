@@ -1,0 +1,210 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>JQuery清单应用</title>
+    <meta name="description" content="JQuery清单应用">
+    <meta name="keywords" content="jQery, 清单应用">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="../../img/icon.png"/>
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/style-responsive.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" href="../../css/layui.css">
+
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class="preloader" id="preloader">
+    <div class="item">
+        <div class="spinner">
+        </div>
+    </div>
+</div>
+
+<div class="opacity-nav">
+
+    <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+    </div>
+
+    <ul class="menu-fullscreen">
+        <li><a class="ajax-link" href="index.html">首页</a></li>
+        <!--<li><a class="ajax-link" href="projects.html">Projects</a></li>-->
+        <li><a class="ajax-link" href="about-me.html">关于我</a></li>
+        <li><a class="ajax-link" href="contact.html">联系我</a></li>
+        <li><a class="ajax-link" href="http://ghang.top/">个人博客网站</a></li>
+    </ul>
+
+</div>
+
+
+<!--Header-->
+<header id="fullscreen">
+
+    <div class="logo" id="full"><a class="ajax-link" href="../../index.html">高行行小站</a></div>
+
+    <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+    </div>
+
+</header>
+
+<div class="clear"></div>
+
+<!--Content-->
+
+<div class="content" id="ajax-content">
+
+
+    <div class="text-intro">
+
+        <h1>JQuery清单应用</h1>
+
+
+        <div class="one-column">
+            <p>Website</p>
+        </div>
+
+        <div class="two-column">
+            <p>开发思路：清单应用的整体布局，
+                清单应用的细节完善，
+                清单应用的需求及逻辑梳理，
+                清单应用的架构方式，
+                清单应用的数据存储方式，
+                清单应用的数据组织方式，
+                模板的实现及应用，
+                清单应用定时功能的实现，
+                清单应用响铃提醒的实现</p>
+            <p>实用技术：
+                jQuery的核心知识点，
+
+                定时提醒功能的实现，
+
+                最大限度的重用数据，
+
+                实现更强大的自定义alert()，
+
+                position属性的特殊用法，
+
+                box-sizing的意义及其在特殊情况下，
+
+                CSS3在真实项目中的应用，
+
+                class的命名原则，
+
+                jQuery promise的意义及其用法</p>
+            <p>
+                第三方插件：
+                Store.js 实现localStorage读取与存储，
+
+                jQuery插件，datetimepicker
+            </p>
+            <p>
+                jQuery API：
+                jQuery deferred的概念及使用方式，
+
+                jQuery选择器在真实项目中的应用的使用
+            </p>
+            <p>
+                <b>本项目来自慕课网： <a href="https://coding.imooc.com/class/72.html">6小时 jQuery开发一个前端应用
+                </a></b>
+            </p>
+            <br/>
+            <h4>目前还没写完</h4>
+        </div>
+
+
+
+        <div class="clear"></div>
+
+        <br/><br/>
+
+        <a href="http://gaohang.xyz/todo/" target="_blank">
+            <button class="layui-btn layui-btn-lg layui-btn-normal"  style="background-color: #000000">效果浏览</button>
+        </a>
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+        <h2>首页</h2>
+        <img src="../../img/projects/todo/1.jpg" width="100%"><br/><br/><br/><br/>
+
+
+
+        <div class="prev-next">
+
+            <div class="prev-button"><a class="ajax-link" href="#">上一个</a></div>
+            <div class="next-button"><a class="ajax-link" href="blog-system.html">下一个</a></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
+<!--Footer-->
+
+<footer>
+
+    <div class="footer-margin">
+        <div class="social-footer">
+            <a href="https://github.com/gaohanghang"><i class="fa fa-github"></i> GitHub</a>
+            <a href="https://https://www.zhihu.com/people/gao-xing-68-15/activities"><i class="fa fa-comment-o"></i> 知乎</a>
+
+        </div>
+        <div class="copyright">© Copyright Thomsoon.com. 版权所有.</div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!--Scripts-->
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/jquery.easing.min.js"></script>
+<script src="../../js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="../../js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../../js/typed.js" type="text/javascript"></script>
+<script src="../../js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/jquery.jkit.1.2.16.min.js" type="text/javascript"></script>
+
+<script src="../../js/script.js" type="text/javascript"></script>
+
+<script src="../../js/layui.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="dist/canvas-nest.js"></script>
+</body>
+</html>

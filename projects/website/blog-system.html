@@ -1,0 +1,173 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>Markdown博客系统</title>
+    <meta name="description" content="Markdown博客系统">
+    <meta name="keywords" content="Markdown, 博客系统">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="thomsoon.com">
+    <link rel="icon" type="image/png" href="../../img/icon.png"/>
+
+    <!--Style-->
+
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/style-responsive.css">
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../../css/layui.css">
+
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+</head>
+
+<body>
+
+<!--Preloader-->
+
+<div class="preloader" id="preloader">
+    <div class="item">
+        <div class="spinner">
+        </div>
+    </div>
+</div>
+
+<div class="opacity-nav">
+
+    <div class="menu-index" id="buttons" style="z-index:999999">
+        <i class="fa  fa-close"></i>
+    </div>
+
+    <ul class="menu-fullscreen">
+        <li><a class="ajax-link" href="index.html">首页</a></li>
+        <!--<li><a class="ajax-link" href="projects.html">Projects</a></li>-->
+        <li><a class="ajax-link" href="about-me.html">关于我</a></li>
+        <li><a class="ajax-link" href="contact.html">联系我</a></li>
+        <li><a class="ajax-link" href="http://ghang.top/">个人博客网站</a></li>
+    </ul>
+
+</div>
+
+
+<!--Header-->
+<header id="fullscreen">
+
+    <div class="logo" id="full"><a class="ajax-link" href="../../index.html">高行行小站</a></div>
+
+    <div class="menu-index" id="button">
+        <i class="fa fa-bars"></i>
+    </div>
+
+</header>
+
+<div class="clear"></div>
+
+<!--Content-->
+
+<div class="content" id="ajax-content">
+
+
+    <div class="text-intro">
+
+        <h1>Markdown 博客系统</h1>
+
+
+        <div class="one-column">
+            <p>Website</p>
+        </div>
+
+        <div class="two-column">
+            <p>本博客系统基于Spring Boot、MyBatis和Thymeleaf等技术实现，Markdown编辑器使用了开源的pagedown，这款编辑器也是Stack
+                Overflow正在使用的编辑器。本系统结合了很多开源的东西，比如前台的博客展示页面移植自一款Typecho的主题，首页的背景粒子特效来自GitHub开源的JS，404页面的设计来自国外设计师Ricardo
+                Prieto，系统分页功能使用了开源的MyBatis分页插件，为了简化开发使用了GitHub上的一些开发工具包。<br/><br/>本系统来自GitHub，在原有项目的基础上进行了学习和优化，让自己熟悉了Spring
+                Boot的使用</p>
+        </div>
+
+
+
+        <div class="clear"></div>
+
+        <br/><br/>
+
+        <a href="../../code.html" target="_blank">
+            <button class="layui-btn layui-btn-lg layui-btn-normal" style="background-color: #000000">效果浏览</button>
+        </a>
+
+        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
+
+        <h2>首页</h2>
+        <img src="../../img/projects/blogsystem/1.png" width="100%"><br/><br/><br/><br/>
+        <h2>归档页</h2>
+        <img src="../../img/projects/blogsystem/2.png" width="100%"><br/><br/><br/><br/>
+        <h2>登陆页</h2>
+        <img src="../../img/projects/blogsystem/3.png" width="100%"><br/><br/><br/><br/>
+        <h2>后台页面</h2>
+        <img src="../../img/projects/blogsystem/4.png" width="100%"><br/><br/><br/><br/>
+
+
+        <div class="prev-next">
+
+            <div class="prev-button"><a class="ajax-link" href="todo.html">上一个</a></div>
+            <div class="next-button"><a class="ajax-link" href="personBlog.html">下一个</a></div>
+
+        </div>
+    </div>
+
+</div>
+
+
+<!--Home Sidebar-->
+
+<div id="ajax-sidebar"></div>
+
+
+<!--Footer-->
+
+<footer>
+
+    <div class="footer-margin">
+        <div class="social-footer">
+            <a href="https://github.com/gaohanghang"><i class="fa fa-github"></i> GitHub</a>
+            <a href="https://https://www.zhihu.com/people/gao-xing-68-15/activities"><i class="fa fa-comment-o"></i> 知乎</a>
+
+        </div>
+        <div class="copyright">© Copyright Thomsoon.com. 版权所有.</div>
+
+
+    </div>
+
+
+</footer>
+
+
+<!--Scripts-->
+
+<script src="../../js/jquery.min.js"></script>
+<script src="../../js/jquery.easing.min.js"></script>
+<script src="../../js/modernizr.custom.42534.js" type="text/javascript"></script>
+<script src="../../js/jquery.waitforimages.js" type="text/javascript"></script>
+<script src="../../js/typed.js" type="text/javascript"></script>
+<script src="../../js/masonry.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+<script src="../../js/jquery.jkit.1.2.16.min.js"></script>
+
+<script src="../../js/script.js" type="text/javascript"></script>
+<script src="../../js/layui.js" type="text/javascript"></script>
+
+<script>
+    $('#button, #buttons').on('click', function () {
+        $(".opacity-nav").fadeToggle("slow", "linear");
+        // Animation complete.
+    });
+</script>
+
+<script type="text/javascript" color="0,0,255" opacity='0.7' zIndex="-2" count="99" src="dist/canvas-nest.js"></script>
+</body>
+</html>
